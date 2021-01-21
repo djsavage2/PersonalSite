@@ -33,16 +33,18 @@ function serve() {
 }
 
 export default {
-	input: 'src/main.ts',
+	input: './src/main.ts',
 	output: {
 		sourcemap: true,
 		format: 'iife',
-		name: 'app',
-		file: 'public/build/bundle.js'
+		name: 'bundle',
+		file: './public/build/bundle.js'
 	},
 	plugins: [
 		svelte({
-			preprocess: sveltePreprocess({ style:sass() }),
+			preprocess: sveltePreprocess({ 
+				style: sass(),
+			}),
 			compilerOptions: {
 				// enable run-time checks when not in production
 				dev: !production
@@ -51,7 +53,7 @@ export default {
 		// we'll extract any component CSS out into
 		// a separate file - better for performance
 		css({ output: 'bundle.css' }),
-		scss(),
+		scss({ output: 'bundle.css'}),
 
 		// If you have external dependencies installed from
 		// npm, you'll most likely need these plugins. In

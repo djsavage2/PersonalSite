@@ -1,5 +1,5 @@
 {
-  "name": "svelte-app",
+  "name": "dakota-savage-site",
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
