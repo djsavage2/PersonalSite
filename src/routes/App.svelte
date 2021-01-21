@@ -1,12 +1,12 @@
 <script lang="ts">
-	import Navbar from "./Navbar.svelte";
+	import Navbar from "../components/Navbar.svelte";
 	export let name: string;
 </script>
 
 <Navbar/>
 <body>
 	<h1>{name}</h1>
-	<p> Test Code Color</p>
+	<p>Test Code Color</p>
 </body>
 
 <style>
