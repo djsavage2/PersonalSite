@@ -9,23 +9,27 @@
 	<p>Test Code Color</p>
 </body>
 
-<style>
+<style lang="scss">
+	$terminal-black: #000000;
+	$terminal-white: #CCCCCC;
+	$terminal-green: #00FF00;
+
 	body {
-		background-color: #000000;
+		background-color: $terminal-black;
 		text-align: center;
 		padding: 1em;
 		margin: 0 auto;
 	}
 
 	h1 {
-		color:#CCCCCC;
+		color: $terminal-white;
 		font-size: 4em;
 		font-weight: 100;
 		font-family: Noto Mono;
 	}
 
 	p {
-		color: #00FF00;
+		color: $terminal-green;
 		font-family: Noto Mono;
 	}
 </style>
