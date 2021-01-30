@@ -9,17 +9,18 @@ import Nav from '../components/Nav.svelte';
 	main {
 		position: relative;
 		max-width: 56em;
-		background-color: #F3F8F2;
+		background-color: #fff;
 		padding: 2em;
 		margin: 0 auto;
 		box-sizing: border-box;
 		overflow: auto;
-		padding-bottom: 180px;
 	}
 
 	.wrap {
-		height: 100%;
-		min-height: 100%;
+		height: auto;
+		min-height: calc(100% - 3.5rem);
+		width: 100%;
+		display: inline-block;
 	}
 </style>
 
