@@ -5,6 +5,7 @@
 	h1, p {
 		text-align: left;
 		margin: 0 auto;
+		width: 100%;
 	}
 
 	h1 {
@@ -29,5 +30,4 @@
 </svelte:head>
 
 <h1>software engineer</h1>
-
 <p><strong>Currently working on frontend development skills.</strong></p>

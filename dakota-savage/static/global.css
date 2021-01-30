@@ -1,3 +1,7 @@
+html {
+	height: 100%
+}
+
 body {
 	margin: 0;
 	font-family: menlo, inconsolata, monospace;
@@ -5,8 +9,14 @@ body {
 	line-height: 1.5;
 	color: #1D1E18;
 	background-color: #F3F8F2;
+	min-height: 100%;
+	height: inherit;
 }
 
+div#sapper {
+	min-height: 100%;
+	height: inherit;
+}
 
 h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 0.5em 0;

@@ -4,24 +4,19 @@
 
 <style>
     .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
+        position: relative;
+        margin-top: -50px;
+        height: 50px;
         padding: 0 1em;
     }
 
     .right {
         float: right;
-        padding: 1em;
+        padding: 0 0 0 1em;
     }
     
     a {
         display: block-inline;
-    }
-
-    span {
-        position: relative;
     }
 </style>
 

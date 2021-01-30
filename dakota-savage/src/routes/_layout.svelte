@@ -13,13 +13,22 @@ import Nav from '../components/Nav.svelte';
 		padding: 2em;
 		margin: 0 auto;
 		box-sizing: border-box;
+		overflow: auto;
+		padding-bottom: 180px;
+	}
+
+	.wrap {
+		height: 100%;
+		min-height: 100%;
 	}
 </style>
 
-<Nav {segment}/>
+<div class="wrap">
+	<Nav {segment}/>
 
-<main>
-	<slot></slot>
-</main>
+	<main>
+		<slot></slot>
+	</main>
+</div>
 
 <ContactMe />
