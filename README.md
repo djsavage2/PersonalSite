@@ -12,6 +12,10 @@ The live website can be found at TBA.
 4. `npm run dev`
 5. Go to https://localhost:3000
 
+## Deploying
+
+GitHub Pages is a BITCH
+
 ## Writing Blog Posts
 
 Go into `dakota-savage/src/routes/blog/_posts.js to edit or add new posts. Follow the format you see there. Template:
