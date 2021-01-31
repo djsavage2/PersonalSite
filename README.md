@@ -18,14 +18,14 @@ Go into `dakota-savage/src/routes/blog/_posts.js to edit or add new posts. Follo
 
 ```json
 {
-		title: "",
-		date: "",
-		description: "",
-		slug: "",
-		html: `
-			<p>This is the body of your post</p>
-		`
-	}
+    title: "",
+    date: "",
+    description: "",
+    slug: "",
+    html: `
+        <p>This is the body of your post</p>
+    `
+}
 ```
 
 ## Contributing
