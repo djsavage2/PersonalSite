@@ -11,12 +11,12 @@ jobs:
             uses: actions/checkout@v2
             with:
                 persist-credentials: false
-                
-        -   run: cd dakota-savage           
+   
         -   name: Use Node.js '12.x'
             uses: actions/setup-node@v1
             with:
                 node-version: '12.X'
+        -   run: cd dakota-savage        
         -   run: npm install
         -   run: npm run export
         -   name: Build and Deploy
