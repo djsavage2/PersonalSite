@@ -1,8 +1,8 @@
 ## Dakota Savage Personal Site
 
-This repo holds Dakota Savage's (my) personal website.
+This repo holds my personal website.
 
-The live website can be found at TBA.
+The live website can be found at https://djsavage2.github.io/PersonalSite/.
 
 ## Getting Started
 
@@ -14,7 +14,9 @@ The live website can be found at TBA.
 
 ## Deploying
 
-GitHub Pages is a BITCH
+CI/CD is set up with GitHub actions, so whenever you push to `main` the output of `npm run export` will be dumped in the `gh-pages` branch which GitHub Pages builds from.
+
+To make changes to the CI/CD pipeline, edit `.github/workflows/main.yml`.
 
 ## Writing Blog Posts
 
