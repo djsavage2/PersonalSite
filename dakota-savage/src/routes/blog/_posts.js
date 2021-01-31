@@ -24,11 +24,11 @@ const posts = [
 			framework. For the final product, my first instinct was to grab a static site generator like <a href="https://elderguide.com/tech/elderjs/https://elderguide.com/tech/elderjs/">Elder.js</a>
 			(which also supports SSR) initially, I decided exposing myself to Sapper for routing would be more valuable to me since Svelte's WIP official router, 
 			<a href="https://svelte.dev/blog/whats-the-deal-with-sveltekit">SvelteKit</a>, is essentially a rewrite of Sapper.</p>
-			<p>In the time I haven't spent in front of my computer screeen, I have largely been seated in front of my television's. This month, thanks to getting my hands on HBO Max
-			(thanks Ma!), I flew through Silicon Valley. In fact, I only have the series finale remaining as I write this out. While I was initially hooked by the depiction of 
-			"nerd culture", the humour of the show proved to be second to none. On Netflix I watched Dead to Me with my SO, Tess, and we loved the first season. Unfortunately, the
-			second season was lackluster, and we gave up on it after just two episodes. The direction and cinematography fell off a cliff, and we noticed an excessive amount of
-			product placement shoehorned in.</p>
+			<p>In the time I haven't spent in front of my computer screeen, I have largely been seated in front of my television's. This month I got my hands on HBO Max (thanks Ma!),
+			and I have fallen in love with <em>Silicon Valley</em>. In fact, I only have the series finale left to watch as I write this out. I was initially hooked by the show's
+			goofy depiction of nerd culture in the software industry, but the comedy has been what keeps me clicking on "Next Episode".</p>
+			<p>I watched <em>Dead to Me</em> with my SO, Tess, on Netflix and we loved the first season. Unfortunately, the second season was lackluster, and we gave up on it after just two
+			episodes. The direction and cinematography fell off a cliff, and we noticed an excessive amount of product placement shoehorned in.</p>
 			<p>Netflix, you need to stop cashing out on your series after one decent season. Please.</p>
 			<p>I found myself scrambling for any piece of information that could help me ramp up into my new gig. I got my hands on some reading material that has helped me out.
 			Being human, I failed to recognize that my attention span was absolutely nuked by being locked indoors for what has been essentially the past year. As a result, 
@@ -37,10 +37,10 @@ const posts = [
 				<li class="listHeader reading"><span>Title</span> <span>Author</span> <span>Progress:</span></li>
 
 				<li class="reading"><span>Clean Code (Reread)</span> <span>Uncle Bob</span> <span>Completed</span></li>
-				<li class="reading"><span><a href="https://www.robmiles.com/c-yellow-book/">C# Yellow Book</a></span> <span>Rob Miles</span> <span>Page: 120</span></li>
+				<li class="reading"><span><a href="https://www.robmiles.com/c-yellow-book/">The C# Yellow Book</a></span> <span>Rob Miles</span> <span>Page: 120</span></li>
 				<li class="reading"><span>Being Geek</span> <span>Michael Lopp</span> <span>Page: 75</span></li>
 			</ul>
-			<p>and here's what I've got on deck:</p>
+			<p>And what I've got on deck:</p>
 			<ul>
 				<li class="listHeader unread"><span>Title</span> <span>Author</span></li>
 
