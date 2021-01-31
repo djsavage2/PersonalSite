@@ -14,6 +14,8 @@ The live website can be found at https://djsavage2.github.io/PersonalSite/.
 
 ## Deploying
 
+To deploy manually, run `npm run deploy` in the project's root directory. Once the process finishes, you should see changes reflected on the live site.
+
 CI/CD is set up with GitHub actions, so whenever you push to `main` the output of `npm run export` will be dumped in the `gh-pages` branch which GitHub Pages builds from.
 
 To make changes to the CI/CD pipeline, edit `.github/workflows/main.yml`.
