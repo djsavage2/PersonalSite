@@ -2,7 +2,7 @@
 
 This repo holds my personal website.
 
-The live website can be found at https://djsavage2.github.io/PersonalSite/.
+The live website can be found at https://dakotajsavage.com.
 
 ## Getting Started
 
@@ -19,6 +19,8 @@ To deploy manually, run `npm run deploy` in the project's root directory. Once t
 CI/CD is set up with GitHub actions, so whenever you push to `main` the output of `npm run export` will be dumped in the `gh-pages` branch which GitHub Pages builds from.
 
 To make changes to the CI/CD pipeline, edit `.github/workflows/main.yml`.
+
+Domain and DNS Services provided by [Namecheap](www.namecheap.com).
 
 ## Writing Blog Posts
 
