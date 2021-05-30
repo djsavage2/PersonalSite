@@ -7,10 +7,9 @@ The live website can be found at https://dakotajsavage.com.
 ## Getting Started
 
 1. Clone this repo
-2. `cd dakota-savage`
-3. `npm install`
-4. `npm run dev`
-5. Go to https://localhost:3000
+1. `npm install`
+1. `npm run dev`
+1. Navigate to https://localhost:3000
 
 ## Deploying
 
@@ -21,6 +20,12 @@ CI/CD is set up with GitHub actions, so whenever you push to `main` the output o
 To make changes to the CI/CD pipeline, edit `.github/workflows/main.yml`.
 
 Domain and DNS Services provided by [Namecheap](www.namecheap.com).
+
+## Tech Stack
+
+- Svelte
+- Sapper
+- GitHub Pages
 
 ## Writing Blog Posts
 

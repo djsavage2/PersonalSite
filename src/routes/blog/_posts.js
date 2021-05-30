@@ -9,13 +9,11 @@
 
 const posts = [
 	{
-		title: "How I Use my Free Time",
-		date: "Last Updated: January 30, 2021",
-		description: "Shows I'm streaming, Projects I'm working on, etc.",
-		slug: "free-time-journal",
+		title: "Free Time Journal — Entry 1",
+		date: "Published: January 30, 2021",
+		description: "Shows I'm watching, Projects I'm working on, etc.",
+		slug: "free-time-journal-1",
 		html: `
-			<h3>Entry: January 30, 2021</h3>
-			
 			<p>This month has been a whirlwind for me. Starting my career in software has invigorated me to hone my skills and become a more well-rounded developer.</p>
 			<p>I have thrown myself into a few frontend projects, but this personal site was the first that I've seen through. I was attracted to <a href="https://svelte.dev/">Svelte</a>
 			by some videos I found through
@@ -57,13 +55,14 @@ const posts = [
 	},
 	
 	{
-		title: "Building this Site - WIP",
-		date: "Published: TBD",
-		description: "How a backend engineer makes a portfolio site.",
-		slug: "making-this-site",
+		title: "Test Post",
+		date: "Published: January 1, 1970",
+		description: "Test",
+		slug: "test-post",
 		html: `
+			<h2>Test Post</h2>
+		
 			<p>This is an example of what a post may look like.</p>
-			<p>I will make an effort to write this out later.</p>
 		`
 	}
 ];
