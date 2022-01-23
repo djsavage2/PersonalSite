@@ -1,52 +1,38 @@
-## Dakota Savage Personal Site
+# create-svelte
 
-This repo holds my personal website.
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
 
-The live website can be found at https://dakotajsavage.com.
+## Creating a project
 
-## Getting Started
+If you're seeing this, you've probably already done this step. Congrats!
 
-1. Clone this repo
-1. `npm install`
-1. `npm run dev`
-1. Navigate to https://localhost:3000
+```bash
+# create a new project in the current directory
+npm init svelte@next
 
-## Deploying
-
-To deploy manually, run `npm run deploy` in the project's root directory. Once the process finishes, you should see changes reflected on the live site.
-
-CI/CD is set up with GitHub actions, so whenever you push to `main` the output of `npm run export` will be dumped in the `gh-pages` branch which GitHub Pages builds from.
-
-To make changes to the CI/CD pipeline, edit `.github/workflows/main.yml`.
-
-Domain and DNS Services provided by [Namecheap](www.namecheap.com).
-
-## Tech Stack
-
-- Svelte
-- Sapper
-- GitHub Pages
-
-## Writing Blog Posts
-
-Go into `dakota-savage/src/routes/blog/_posts.js to edit or add new posts. Follow the format you see there. Template:
-
-```json
-{
-    title: "",
-    date: "",
-    description: "",
-    slug: "",
-    html: `
-        <p>This is the body of your post</p>
-    `
-}
+# create a new project in my-app
+npm init svelte@next my-app
 ```
 
-## Contributing
+> Note: the `@next` is temporary
 
-If you have any suggestions on how I can improve the site, feel free to send them my way! Open an issue or create a pull request and I'll take a look ASAP.
+## Developing
 
-## License
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-This project is protected under the MIT License - see LICENSE.txt for details.
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+
+```bash
+npm run build
+```
+
+> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
